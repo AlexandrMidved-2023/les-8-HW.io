@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.ttf ) format('truetype');
+    font-family: 'Montserrat-SemiBold';
+    src: url(../fonts/Montserrat-SemiBold.ttf ) format('truetype');
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf ) format('truetype');
+}
+
+html,
+body {
+    font-size: 18px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #2F281E;
+}
+
+* {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font: 44px;
+    line-height: 1.22;
+}
+
+h3 {
+    color: #544837;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #2F281E;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --------- Header --------- */
+.inline {
+    padding: 17px 0;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+    margin: 11px 99px 11px 0;
+    display: inline-block;
+
+}
+
+.nav {
+    line-height: 1.75;
+    display: inline-block;
+    margin: 13px 99px;
+    vertical-align: top;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 8px;
+    color: #2F281E;
+}
+
+li a:hover {
+    color: #FF9900;
+}
+
+.button-header {
+    display: inline-block;
+    margin-left: 99px;
+}
+
+.button {
+    line-height: 1.2;
+    font-weight: 600;
+    line-height: 24px;
+    display: inline-block;
+    padding: 15px 22px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    vertical-align: bottom;
+}
+
+.in {
+    margin-right: 16px;
+}
+
+.up {
+    color: #ffffff;
+    margin-left: 16px;
+    background: #FF9900;
+}
+
+
+
+/* --------- Header End --------- */
+
+/* --------- Main --------------- */
+.main {
+    margin-top: 70px;
+}
+
+.left-side {
+    margin: 97px 28px 97px 0;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.first-block-text {
+    margin-bottom: 20px;
+}
+
+.screen-button {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.5;
+    background: #FF9900;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    padding: 13px 46px;
+}
+
+.right-side {
+    display: inline-block;
+    width: 53%;
+    height: 100%;
+    margin-left: 28px;
+}
